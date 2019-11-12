@@ -10,3 +10,6 @@ end
  
 aisatu = Hello.new('Ebikosan')
 aisatu.hello
+
+
+hogehoge
