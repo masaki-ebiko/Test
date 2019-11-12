@@ -1,8 +1,12 @@
 class Hello
-    def hello
-      puts 'HELLO'
-    end
+  def initialize(name)
+    @name = name
   end
   
-  aisatu = Hello.new
-  aisatu.hello
+  def hello
+    puts "Hello, #{@name}."
+  end
+end
+ 
+aisatu = Hello.new('Ebikosan')
+aisatu.hello
